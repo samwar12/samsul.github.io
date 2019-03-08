@@ -1,15 +1,15 @@
-const socket = io('https://stream3005.herokuapp.com/');
+const socket = io('https://samwar11.herokuapp.com/');
 
 $('#div-chat').hide();
 
 let customConfig;
 
 $.ajax({
-  url: "https://service.xirsys.com/ice",
+  url: "https://global.xirsys.net/_turn/MyFirstApp/",
   data: {
-    ident: "vanpho",
+    ident: "samwar11",
     secret: "2b1c2dfe-4374-11e7-bd72-5a790223a9ce",
-    domain: "vanpho93.github.io",
+    domain: "samsul.github.io",
     application: "default",
     room: "default",
     secure: 1
@@ -60,7 +60,7 @@ function playStream(idVideoTag, stream) {
 
 const peer = new Peer({ 
     key: 'peerjs', 
-    host: 'mypeer3005.herokuapp.com', 
+    host: 'samwar11.herokuapp.com', 
     secure: true, 
     port: 443, 
     config: customConfig 
