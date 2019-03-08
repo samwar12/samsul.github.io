@@ -8,7 +8,7 @@ $.ajax({
   url: "https://global.xirsys.net/_turn/MyFirstApp/",
   data: {
     ident: "samwar11",
-    secret: "2b1c2dfe-4374-11e7-bd72-5a790223a9ce",
+    secret: "bec4837c-40a6-11e9-a62a-0242ac110003",
     domain: "samsul.github.io",
     application: "default",
     room: "default",
